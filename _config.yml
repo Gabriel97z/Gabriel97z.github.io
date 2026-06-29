@@ -1,0 +1,18 @@
+# Site Settings
+title: "My Awesome Website"
+description: "A simple portfolio built with GitHub Pages and Jekyll."
+avatar: "/assets/img/profile.jpg"
+
+# URL Settings (Crucial for proper links)
+url: "https://yourusername.github.io" # Baseline domain
+baseurl: "/your-repo-name"             # Set to "" if using a user/organization site
+
+# Build Settings
+theme: jekyll-theme-minimal            # Built-in GitHub Pages theme
+markdown: kramdown
+highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
